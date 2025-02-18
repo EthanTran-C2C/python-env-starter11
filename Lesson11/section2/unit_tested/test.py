@@ -4,6 +4,7 @@ from main import play_game
 class test_RPSGame(unittest.TestCase):
   def test_play_game_player_loses(self):
     self.assertEqual(play_game("Rock","Paper"),"You lose!")
+    # test random inputs that result in that result
 
   def test_play_game_player_wins(self):
     self.assertEqual(play_game("Rock","Scissors"),"You win!")

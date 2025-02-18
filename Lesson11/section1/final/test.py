@@ -1,5 +1,5 @@
 import unittest
-from main import is_odd
+#from main import is_odd
 
 class TestIsOdd(unittest.TestCase):
 
@@ -9,7 +9,7 @@ class TestIsOdd(unittest.TestCase):
     def test_even_num(self):
         self.assertFalse(is_odd(2))
 
-    # edge case
+    #edge case
     def test_zero(self):
         self.assertFalse(is_odd(0))
 
